@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - DevFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/JC_Logo.jpg" alt=""> 
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul class="text-end w-100 pe-4">
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!--<li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>-->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <canvas id="canvas" class="position-absolute top-0 start-0 w-100 h-100"></canvas>
+      
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Josip Ćužić</h2>
+        <p><span class="typed" data-typed-items="Portfolio"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <!--<div class="col-lg-5">
+                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+              </div>-->
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Josip Ćužić</span></p>
+                <p><strong>Profile: </strong> <span>Student</span></p>
+                <p><strong>Email: </strong> <span>josipcuzic1@gmail.com</span></p>
+                <!--<p><strong>Phone: </strong> <span>(617) 557-0089</span></p>-->
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>C#</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>HTML & CSS</span> <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Python</span> <i class="val">35%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                I'm a 24-year-old student at the Faculty of Science in Split, currently studying Informatics and Technology. 
+                I have a strong interest in software development, web technologies, and solving real-world problems through code. 
+                I'm always curious to explore new tools and frameworks, and I enjoy working in collaborative environments.
+              </p>
+              <p>
+                Over the past few years, I’ve been building my skills through academic projects and personal practice. 
+                My goal is to continue growing as a developer and contribute to innovative digital solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <a href="assets/my/Josip_Cuzic_CV.pdf" download class="btn btn-primary btn-lg">
+          <i class="bi bi-download me-2"></i>CV
+    </a>
+      </div><!-- End Section Title -->
+
+  </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Basic 2D platformer</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="zoom-in">
+
+            <div class="col-lg-10 col-md-12">
+              <div class="portfolio-item">
+                <div class=""portfolio-img>
+                  <img src="assets/my/igra.gif" alt="Basic 2D Platformer" class="img-fluid">
+                </div>
+
+                <div class="container section-title" data-aos="fade-up">
+                  <a href="assets/my/igra.zip" download class="btn btn-primary btn-lg">
+                  <i class="bi bi-download me-2"></i>ZIP
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Tic Tac Toe</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="zoom-in">
+
+            <div class="col-lg-10 col-md-12">
+              <div class="portfolio-item">
+                <div class=""portfolio-img>
+                  <img src="assets/my/TicTacToe.png" alt="TicTacToe" class="img-fluid">
+                </div>
+
+                <div class="container section-title" data-aos="fade-up">
+                  <a href="assets/my/Josip_Cuzic_TicTacToe.zip" download class="btn btn-primary btn-lg">
+                  <i class="bi bi-download me-2"></i>ZIP
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+
+      </div><!-- End Portfolio Container -->
+
+        
+
+      
+
+    </section><!-- /Portfolio Section -->
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Solin 21210, Hrvatska</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-end">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>josipcuzic1@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/josip-cuzic-333981266/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+  <!--Chatbot-->
+  <div class="chatbot-container">
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="bi bi-chat-dots"></i>
+    </button>
+    
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <h5><i class="bi bi-robot"></i> AI Asistent</h5>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+        
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot">
+                <div class="message-bubble">
+                    Pozdrav! 👋 Ja sam AI asistent. Pitaj me bilo što o njegovom portfoliju, projektima ili vještinama!
+                </div>
+            </div>
+        </div>
+
+         <div class="suggested-questions" id="suggestedQuestions">
+        <h6>💡 Predložena pitanja:</h6>
+        <div class="questions-container" id="questionsContainer">
+            <!-- Pitanja će se generirati s JavaScriptom -->
+        </div>
+    </div>
+        
+        <div class="typing-indicator" id="typingIndicator">
+            <span class="typing-dots">AI piše</span>
+        </div>
+        
+        <div class="chatbot-input">
+            <div class="chatbot-input-group">
+                <input type="text" class="chatbot-input-field" id="chatbotInput" placeholder="Napiši poruku...">
+                <button class="chatbot-send-btn" id="chatbotSend">
+                    <i class="bi bi-send"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chatbot JavaScript -->
+<script>
+class JosipChatBot {
+    constructor() {
+        this.toggle = document.getElementById('chatbotToggle');
+        this.window = document.getElementById('chatbotWindow');
+        this.close = document.getElementById('chatbotClose');
+        this.messages = document.getElementById('chatbotMessages');
+        this.input = document.getElementById('chatbotInput');
+        this.send = document.getElementById('chatbotSend');
+        this.typing = document.getElementById('typingIndicator');
+
+        this.suggestedQuestions = document.getElementById('suggestedQuestions');
+        this.questionsContainer = document.getElementById('questionsContainer');
+        
+        this.isOpen = false;
+        this.apiKey = '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'; // Ovdje dodaj svoj OpenAI API ključ
+        
+        this.initEventListeners();
+        this.initPortfolioContext();
+        this.initSuggestedQuestions();
+    }
+
+    initSuggestedQuestions() {
+        this.questions = [
+            "Koliko godina ima Josip?",
+            "Koje su njegove glavne vještine?",
+            "Reci mi o 2D platformer igri",
+            "Što studira?",
+            "Kako ga mogu kontaktirati?",
+            "Reci mi o Tic Tac Toe projektu",
+            "Gdje mogu skinuti njegov CV?",
+            "Koje tehnologije poznaje?",
+            "Gdje živi?",
+            "Pokaži mi njegove projekte"
+        ];
+        
+        this.renderQuestions();
+    }
+    
+    renderQuestions() {
+        this.questionsContainer.innerHTML = '';
+        
+        // Prikaži sva pitanja (ili ograniči ako ih je previše)
+        const questionsToShow = this.questions.slice(0, 8); // Povećano na 8
+        
+        questionsToShow.forEach((question, index) => {
+            const chip = document.createElement('button');
+            chip.className = 'question-chip';
+            chip.textContent = question;
+            chip.dataset.index = index; // Za praćenje koji je kliknut
+            chip.addEventListener('click', () => {
+                this.handleSuggestedQuestion(question, chip);
+            });
+            this.questionsContainer.appendChild(chip);
+        });
+    }
+    
+    // NOVA FUNKCIJA: Rukovanje klikom na predloženo pitanje
+    handleSuggestedQuestion(question, chipElement) {
+        // Dodaj vizualnu oznaku da je pitanje korišteno
+        chipElement.classList.add('used');
+        
+        // Kratka animacija
+        chipElement.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+            chipElement.style.transform = '';
+        }, 150);
+        
+        // Postavi pitanje u input i pošalji
+        this.input.value = question;
+        this.sendMessage();
+        
+        // Pitanja ostaju vidljiva za daljnje korištenje!
+    }
+    
+    // NOVA FUNKCIJA: Sakrij pitanja
+    hideSuggestedQuestions() {
+        this.suggestedQuestions.classList.add('hidden');
+    }
+    
+    // NOVA FUNKCIJA: Pokaži pitanja
+    showSuggestedQuestions() {
+        this.suggestedQuestions.classList.remove('hidden');
+    }
+    
+    // PROMIJENI POSTOJEĆU sendMessage FUNKCIJU:
+    async sendMessage() {
+        const message = this.input.value.trim();
+        if (!message) return;
+        
+        
+        
+        this.addMessage(message, true);
+        this.input.value = '';
+        this.showTyping();
+        
+        try {
+            const response = await this.getAIResponse(message);
+            this.hideTyping();
+            this.addMessage(response);
+        } catch (error) {
+            this.hideTyping();
+            this.addMessage('Izvini, dogodila se greška. Pokušaj ponovo.');
+        }
+    }
+    
+    // PROMIJENI POSTOJEĆU openChat FUNKCIJU:
+    openChat() {
+        this.window.classList.add('show');
+        this.toggle.innerHTML = '<i class="bi bi-x-lg"></i>';
+        this.isOpen = true;
+        
+        // Pitanja se UVIJEK prikazuju kad otvoriš chat
+        this.showSuggestedQuestions();
+        
+        this.input.focus();
+    }
+    
+    initEventListeners() {
+        this.toggle.addEventListener('click', () => this.toggleChat());
+        this.close.addEventListener('click', () => this.closeChat());
+        this.send.addEventListener('click', () => this.sendMessage());
+        this.input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') this.sendMessage();
+        });
+        
+        // Close on outside click
+        document.addEventListener('click', (e) => {
+            if (this.isOpen && !e.target.closest('.chatbot-container')) {
+                this.closeChat();
+            }
+        });
+    }
+    
+    initPortfolioContext() {
+        this.portfolioInfo = {
+            name: 'Josip Ćužić',
+            age: 24,
+            education: 'Faculty of Science in Split, Informatics and Technology',
+            skills: ['C# (60%)', 'HTML & CSS (50%)', 'JavaScript (50%)', 'Python (35%)'],
+            projects: [
+                {
+                    name: 'Basic 2D Platformer',
+                    type: 'Game Development',
+                    description: 'A 2D platformer game built with game development frameworks'
+                },
+                {
+                    name: 'Tic Tac Toe',
+                    type: 'Game',
+                    description: 'Classic Tic Tac Toe game implementation'
+                }
+            ],
+            email: 'josipcuzic1@gmail.com',
+            location: 'Solin, Hrvatska',
+            linkedin: 'https://www.linkedin.com/in/josip-cuzic-333981266/'
+        };
+    }
+    
+    toggleChat() {
+        this.isOpen ? this.closeChat() : this.openChat();
+    }
+    
+    openChat() {
+        this.window.classList.add('show');
+        this.toggle.innerHTML = '<i class="bi bi-x-lg"></i>';
+        this.isOpen = true;
+        this.input.focus();
+    }
+    
+    closeChat() {
+        this.window.classList.remove('show');
+        this.toggle.innerHTML = '<i class="bi bi-chat-dots"></i>';
+        this.isOpen = false;
+    }
+    
+    addMessage(content, isUser = false) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+        
+        const bubble = document.createElement('div');
+        bubble.className = 'message-bubble';
+        bubble.textContent = content;
+        
+        messageDiv.appendChild(bubble);
+        this.messages.appendChild(messageDiv);
+        this.scrollToBottom();
+    }
+    
+    scrollToBottom() {
+        this.messages.scrollTop = this.messages.scrollHeight;
+    }
+    
+    showTyping() {
+        this.typing.style.display = 'block';
+        this.scrollToBottom();
+    }
+    
+    hideTyping() {
+        this.typing.style.display = 'none';
+    }
+    
+    async sendMessage() {
+        const message = this.input.value.trim();
+        if (!message) return;
+        
+        this.addMessage(message, true);
+        this.input.value = '';
+        this.showTyping();
+        
+        try {
+            const response = await this.getAIResponse(message);
+            this.hideTyping();
+            this.addMessage(response);
+        } catch (error) {
+            this.hideTyping();
+            this.addMessage('Izvini, dogodila se greška. Pokušaj ponovo.');
+            console.error('Chatbot error:', error);
+        }
+    }
+    
+    async getAIResponse(message) {
+        // Za produkciju dodaj svoj OpenAI API ključ
+        if (!this.apiKey) {
+            return this.getContextualResponse(message);
+        }
+        
+        try {
+            const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${this.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: 'gpt-3.5-turbo',
+                    messages: [
+                        {
+                            role: 'system',
+                            content: `Ti si AI asistent na portfolio stranici za ${this.portfolioInfo.name}. 
+                            Informacije o korisniku: ${JSON.stringify(this.portfolioInfo)}
+                            Odgovori na hrvatskom jeziku, budi prijateljski i informativan.`
+                        },
+                        {
+                            role: 'user',
+                            content: message
+                        }
+                    ],
+                    max_tokens: 300,
+                    temperature: 0.7
+                })
+            });
+            
+            const data = await response.json();
+            return data.choices[0].message.content;
+        } catch (error) {
+            return this.getContextualResponse(message);
+        }
+    }
+    
+    getContextualResponse(message) {
+        const lowerMessage = message.toLowerCase();
+        
+        // Specifične informacije o Josipu
+        if (lowerMessage.includes('ime') || lowerMessage.includes('zoveš') || lowerMessage.includes('tko')) {
+            return `Ja sam AI asistent na portfoliju ${this.portfolioInfo.name}a. Josip je 24-godišnji student informatike na PMF-u u Splitu.`;
+        }
+        
+        if (lowerMessage.includes('godina') || lowerMessage.includes('star')) {
+            return `Josip ima ${this.portfolioInfo.age} godine.`;
+        }
+        
+        if (lowerMessage.includes('studij') || lowerMessage.includes('fakultet') || lowerMessage.includes('obrazovanje')) {
+            return `Josip studira ${this.portfolioInfo.education}. Fokusiran je na razvoj softvera i web tehnologije.`;
+        }
+        
+        if (lowerMessage.includes('vještine') || lowerMessage.includes('skill') || lowerMessage.includes('znanje')) {
+            const skills = this.portfolioInfo.skills.join(', ');
+            return `Josipove vještine uključuju: ${skills}. Kontinuirano radi na poboljšanju svojih znanja.`;
+        }
+        
+        if (lowerMessage.includes('projekt') || lowerMessage.includes('igra') || lowerMessage.includes('portfolio')) {
+            const projects = this.portfolioInfo.projects.map(p => `${p.name} (${p.type})`).join(' i ');
+            return `U Josipovom portfoliju možeš vidjeti ${projects}. Oba projekta pokazuju njegove programerske vještine u game developmentu.`;
+        }
+        
+        if (lowerMessage.includes('platformer')) {
+            return `Josipova 2D platformer igra je osnovni platformer koji prikazuje njegove vještine u game developmentu. Možeš je downloadati direktno sa stranice!`;
+        }
+        
+        if (lowerMessage.includes('tic tac toe')) {
+            return `Tic Tac Toe je jedna od Josipovih implementacija klasične igre. Prikazuje njegove programerske sposobnosti u stvaranju interaktivnih aplikacija.`;
+        }
+        
+        if (lowerMessage.includes('kontakt') || lowerMessage.includes('email') || lowerMessage.includes('linked')) {
+            return `Možeš kontaktirati Josipa putem email-a: ${this.portfolioInfo.email} ili ga pronaći na LinkedInu. Linkovi su dostupni na stranici!`;
+        }
+        
+        if (lowerMessage.includes('lokacija') || lowerMessage.includes('gdje') || lowerMessage.includes('adresa')) {
+            return `Josip živi u ${this.portfolioInfo.location}.`;
+        }
+        
+        if (lowerMessage.includes('c#') || lowerMessage.includes('csharp')) {
+            return `C# je Josipova najjača vještina s 60% napredovanja. Koristi ga za različite programske projekte i razvoj aplikacija.`;
+        }
+        
+        if (lowerMessage.includes('html') || lowerMessage.includes('css') || lowerMessage.includes('web')) {
+            return `Josip ima solidne vještine u HTML-u i CSS-u (50%). Ova stranica je primjer njegovih web development sposobnosti!`;
+        }
+        
+        if (lowerMessage.includes('javascript') || lowerMessage.includes('js')) {
+            return `JavaScript je jedna od Josipovih vještina (50%) koja mu omogućuje stvaranje interaktivnih web aplikacija poput ovog chatbota!`;
+        }
+        
+        if (lowerMessage.includes('python')) {
+            return `Josip poznaje Python na razini od 35%. To je programski jezik koji koristi za različite projekte i učenje novih koncepata.`;
+        }
+        
+        if (lowerMessage.includes('cv') || lowerMessage.includes('životopis')) {
+            return `Josipov CV možeš downloadati direktno sa stranice - klikni na CV dugme u Resume sekciji!`;
+        }
+        
+        if (lowerMessage.includes('pozdrav') || lowerMessage.includes('bok') || lowerMessage.includes('hello')) {
+            return `Pozdrav! Drago mi je što si zainteresiran/a za ovaj portfolio. Što te zanima o njemu ili njegovim projektima?`;
+        }
+        
+        if (lowerMessage.includes('hvala') || lowerMessage.includes('thanks')) {
+            return `Nema na čemu! Ako imaš još pitanja o Josipu ili njegovom radu, slobodno pitaj!`;
+        }
+        
+        // Općeniti odgovori
+        return `Interesantno pitanje! Kao njegov AI asistent, mogu ti reći da je fokusiran na učenje novih tehnologija i stvaranje korisnih aplikacija. Što te konkretno zanima o njemu ili njegovom portfoliju?`;
+    }
+}
+
+// Inicijaliziraj chatbot kada se stranica učita
+document.addEventListener('DOMContentLoaded', () => {
+    new JosipChatBot();
+});
+</script>
+
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
